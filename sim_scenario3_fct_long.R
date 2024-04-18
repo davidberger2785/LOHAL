@@ -1,5 +1,8 @@
 #all functions for the longitudinal scenario with baseline covariates only
+
+
 library(gtools)
+library(hal9001)
 
 aslongish<-function(odat,var.list,K){ #this will need to be modified for var.LIST
   n=dim(odat)[1]
